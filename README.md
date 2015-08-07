@@ -19,7 +19,7 @@ Directions
 
 3. In the terminal that is connected to the other computer, type ```export ROS_MASTER_URI=http:baxter.local:11311``` and then use ```roslaunch operation_plushie kinect_pc.launch``` to start the drivers for the Xtion Pro.
 
-4. In the main terminal, type ```rosrun rqt_reconfigure rqt_reconfigure```. Then, click "drivers" on the side bar in the window that pops up and check the box that says "depth_registration".
+4. In the terminal for your main computer (the one that isn't sshed), type ```rosrun rqt_reconfigure rqt_reconfigure```. Then, select '"camera" and click "drivers" on the side bar in the window that pops up and check the box that says "depth_registration".
 
 5. In the main terminal, type ```roslaunch operation_plushie operation_plushie.launch``` to start up the program.
 
